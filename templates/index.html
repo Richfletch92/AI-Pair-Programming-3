@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +12,7 @@
     <!-- font-awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<!-- custom styles -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 
 </head>
 
@@ -22,7 +24,9 @@
             </div>
         </div>
 
-        <!-- Columns for to-do and done go here -->
+        {% block content %}
+        <!-- Content Goes here -->
+        {% endblock content %}
 
     </div>
 

@@ -33,29 +33,3 @@ body {
 #add-task-btn {
     margin-top: 31px;
 }
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-
-th {
-    background-color: #f2f2f2;
-    text-align: left;
-}
-
-td a {
-    margin-right: 10px;
-    color: #333;
-    text-decoration: none;
-}
-
-td a:hover {
-    color: #007bff;
-}
